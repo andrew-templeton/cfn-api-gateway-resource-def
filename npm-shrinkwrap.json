@@ -1,0 +1,130 @@
+{
+  "name": "cfn-api-gateway-resource-def",
+  "version": "0.0.1",
+  "dependencies": {
+    "cfn-api-gateway-integration": {
+      "version": "0.2.0",
+      "from": "cfn-api-gateway-integration@0.2.0",
+      "resolved": "https://registry.npmjs.org/cfn-api-gateway-integration/-/cfn-api-gateway-integration-0.2.0.tgz",
+      "dependencies": {
+        "cfn-lambda": {
+          "version": "0.8.0",
+          "from": "https://registry.npmjs.org/cfn-lambda/-/cfn-lambda-0.8.0.tgz",
+          "resolved": "https://registry.npmjs.org/cfn-lambda/-/cfn-lambda-0.8.0.tgz",
+          "dependencies": {
+            "jayschema": {
+              "version": "0.3.1",
+              "from": "https://registry.npmjs.org/jayschema/-/jayschema-0.3.1.tgz",
+              "resolved": "https://registry.npmjs.org/jayschema/-/jayschema-0.3.1.tgz",
+              "dependencies": {
+                "when": {
+                  "version": "3.4.6",
+                  "from": "https://registry.npmjs.org/when/-/when-3.4.6.tgz",
+                  "resolved": "https://registry.npmjs.org/when/-/when-3.4.6.tgz"
+                }
+              }
+            }
+          }
+        },
+        "aws-sdk": {
+          "version": "2.2.19",
+          "from": "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.2.19.tgz",
+          "resolved": "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.2.19.tgz",
+          "dependencies": {
+            "sax": {
+              "version": "0.5.3",
+              "from": "https://registry.npmjs.org/sax/-/sax-0.5.3.tgz",
+              "resolved": "https://registry.npmjs.org/sax/-/sax-0.5.3.tgz"
+            },
+            "xml2js": {
+              "version": "0.2.8",
+              "from": "https://registry.npmjs.org/xml2js/-/xml2js-0.2.8.tgz",
+              "resolved": "https://registry.npmjs.org/xml2js/-/xml2js-0.2.8.tgz"
+            },
+            "xmlbuilder": {
+              "version": "0.4.2",
+              "from": "https://registry.npmjs.org/xmlbuilder/-/xmlbuilder-0.4.2.tgz",
+              "resolved": "https://registry.npmjs.org/xmlbuilder/-/xmlbuilder-0.4.2.tgz"
+            }
+          }
+        }
+      }
+    },
+    "cfn-api-gateway-integration-response": {
+      "version": "0.2.1",
+      "from": "cfn-api-gateway-integration-response@0.2.1",
+      "resolved": "https://registry.npmjs.org/cfn-api-gateway-integration-response/-/cfn-api-gateway-integration-response-0.2.1.tgz",
+      "dependencies": {
+        "cfn-lambda": {
+          "version": "0.8.0",
+          "from": "https://registry.npmjs.org/cfn-lambda/-/cfn-lambda-0.8.0.tgz",
+          "resolved": "https://registry.npmjs.org/cfn-lambda/-/cfn-lambda-0.8.0.tgz",
+          "dependencies": {
+            "jayschema": {
+              "version": "0.3.1",
+              "from": "https://registry.npmjs.org/jayschema/-/jayschema-0.3.1.tgz",
+              "resolved": "https://registry.npmjs.org/jayschema/-/jayschema-0.3.1.tgz",
+              "dependencies": {
+                "when": {
+                  "version": "3.4.6",
+                  "from": "https://registry.npmjs.org/when/-/when-3.4.6.tgz",
+                  "resolved": "https://registry.npmjs.org/when/-/when-3.4.6.tgz"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "cfn-api-gateway-method": {
+      "version": "0.3.0",
+      "from": "cfn-api-gateway-method@0.3.0",
+      "resolved": "https://registry.npmjs.org/cfn-api-gateway-method/-/cfn-api-gateway-method-0.3.0.tgz",
+      "dependencies": {
+        "cfn-lambda": {
+          "version": "0.8.0",
+          "from": "https://registry.npmjs.org/cfn-lambda/-/cfn-lambda-0.8.0.tgz",
+          "resolved": "https://registry.npmjs.org/cfn-lambda/-/cfn-lambda-0.8.0.tgz",
+          "dependencies": {
+            "jayschema": {
+              "version": "0.3.1",
+              "from": "https://registry.npmjs.org/jayschema/-/jayschema-0.3.1.tgz",
+              "resolved": "https://registry.npmjs.org/jayschema/-/jayschema-0.3.1.tgz",
+              "dependencies": {
+                "when": {
+                  "version": "3.4.6",
+                  "from": "https://registry.npmjs.org/when/-/when-3.4.6.tgz",
+                  "resolved": "https://registry.npmjs.org/when/-/when-3.4.6.tgz"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "cfn-api-gateway-method-response": {
+      "version": "0.2.1",
+      "from": "cfn-api-gateway-method-response@0.2.1",
+      "resolved": "https://registry.npmjs.org/cfn-api-gateway-method-response/-/cfn-api-gateway-method-response-0.2.1.tgz"
+    },
+    "cfn-lambda": {
+      "version": "0.8.1",
+      "from": "cfn-lambda@0.8.1",
+      "resolved": "https://registry.npmjs.org/cfn-lambda/-/cfn-lambda-0.8.1.tgz",
+      "dependencies": {
+        "jayschema": {
+          "version": "0.3.1",
+          "from": "https://registry.npmjs.org/jayschema/-/jayschema-0.3.1.tgz",
+          "resolved": "https://registry.npmjs.org/jayschema/-/jayschema-0.3.1.tgz",
+          "dependencies": {
+            "when": {
+              "version": "3.4.6",
+              "from": "https://registry.npmjs.org/when/-/when-3.4.6.tgz",
+              "resolved": "https://registry.npmjs.org/when/-/when-3.4.6.tgz"
+            }
+          }
+        }
+      }
+    }
+  }
+}
